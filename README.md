@@ -10,8 +10,8 @@ This repo automatically generates my CV based on a JSON file containing all my i
 **View the CV [here](https://jaorow.github.io/CV/)**
 
 
-to get a result locally run:
-`docker run --rm -v "${PWD}/:/data" blang/latex:ctanfull pdflatex CV.tex`
+To run locally run:
+`uv run main.py`
 
 
 ## NOTES
